@@ -1,7 +1,7 @@
 /*Style for instructions*/
 .Instructions {
-
-}
+    text-align: center;
+};
 
 /*Style for button to start*/
 .startButton {

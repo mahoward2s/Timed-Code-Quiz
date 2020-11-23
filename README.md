@@ -1,5 +1,6 @@
 # Timed-Code-Quiz
 <!--Description of Time Code Quiz-->
+
 <!--Insturctions For Time Code Quiz-->
             When you click Start Quiz the timed quiz will begin.
 
@@ -10,5 +11,8 @@
             Answer a question incorrectly and you will automatically be docked 20 seconds on the timer.
 
             Try your best to get the high score!
+
 <!--Link To Active Site-->
+https://mahoward2s.github.io/Timed-Code-Quiz/
+
 <!--Screen Capture Of Site-->
