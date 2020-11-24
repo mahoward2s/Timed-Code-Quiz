@@ -9,3 +9,5 @@ var instructions = document.querySelector (".Instructions")
 //Form//
 //Questions//
 //Timer//
+//Local Storage//
+//high score//
