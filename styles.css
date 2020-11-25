@@ -1,6 +1,12 @@
 /*Style for instructions*/
 .Instructions {
+    list-style-position: inside;
     text-align: center;
+};
+
+/*Body Style*/
+body {
+    background-color: blueviolet;
 };
 
 /*Style for button to start*/
