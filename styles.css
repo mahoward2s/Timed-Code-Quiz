@@ -1,5 +1,5 @@
 /*Style for instructions*/
-.Instructions {
+#Instructions {
     list-style-position: inside;
     text-align: center;
 };
@@ -10,6 +10,6 @@ body {
 };
 
 /*Style for button to start*/
-.startButton {
+#startButton {
     background-color: #4CAF50;
 }

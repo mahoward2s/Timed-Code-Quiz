@@ -1,21 +1,22 @@
 //Variables//
-var startQuiz = document.querySelector (".startButton")
-var instructions = document.querySelector (".Instructions")
-var secondsLeft = 240;
-var highScore = 
-
+var startQuizButton = document.querySelector ("#startButton");
+var instructionsEl = document.querySelector ("#Instructions");
+var startTimeEl = 240;
+var highScoreEl = document.querySelector ("#highscore");
+var timer = document.querySelector ("#Timer");
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 //Form//
 //Questions//
 //Timer//
 function setTime() {
     var timerInterval = setInterval(function (){
-        secondsLeft--;
-        timerInterval.textContent = secondsLeft + "Seconds Left In Quiz";
+        startTimeEl--;
+        timerInterval.textContent = startTimeEl + "Seconds Left In Quiz";
 
-        if(secondsLeft === 0) {
+        if(startTimeEl === 0) {
             clearInterval(timerInterval);
-            sendMessage();
+            sendMessage("Times Up!");
         }
     }, 1000);
 }
@@ -24,7 +25,20 @@ function setTime() {
 //high score//
 
 //Start Quiz Button//
-startQuiz.addEventListener('click', function(){
-    
+startQuizButton.addEventListener('click', function(){
+    {console.log("----hi-----");}
     
 })
+
+
+//Start Game
+var quizStartEl = function () {
+    var startTimeEl = setInterval (function(){
+        document.getElementById ("#Timer").innerHTML = seconds + "s";
+
+        if (distance <=0) {
+            clearInterval(startTimeEl);
+            document.getElementById("#Timer").innerHTML = "Times Up";
+        }
+    }, 1000);
+} 
